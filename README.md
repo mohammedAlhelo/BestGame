@@ -8,8 +8,8 @@ project one for general assembly software engineering, the game contains a board
 
 ### **getting started**
 
--Fork and Clone this repo
--Open the repo in VS Code with code .
+1. Fork and Clone this repo
+2. Open the repo in VS Code with code .
 
 ### **how to play**
 

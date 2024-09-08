@@ -30,3 +30,12 @@ section {
   padding: 50px;
   display: inline-block;
 }
+.red {
+  background-color: red;
+}
+.green {
+  background-color: green;
+}
+.white {
+  background-color: antiquewhite;
+}

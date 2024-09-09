@@ -29,49 +29,41 @@ for (let i = 0; i < block.length; i++) {
         let removeRed = document.getElementById(redRemove)
         addRed.classList.add('red')
         removeRed.classList.remove('red')
-        if (redIntial == 17) {
-          redRemove = 17
-          redIntial = 27
+        if (redIntial == 3) {
+          redRemove = 3
+          redIntial = 22
           let addRed = document.getElementById(redIntial)
           let removeRed = document.getElementById(redRemove)
           addRed.classList.add('red')
           removeRed.classList.remove('red')
         }
-        if (redIntial == 13) {
-          redRemove = 13
-          redIntial = 18
+        if (redIntial == 5) {
+          redRemove = 5
+          redIntial = 8
           let addRed = document.getElementById(redIntial)
           let removeRed = document.getElementById(redRemove)
           addRed.classList.add('red')
           removeRed.classList.remove('red')
         }
-        if (redIntial == 6) {
-          redRemove = 6
-          redIntial = 25
+        if (redIntial == 11) {
+          redRemove = 11
+          redIntial = 26
           let addRed = document.getElementById(redIntial)
           let removeRed = document.getElementById(redRemove)
           addRed.classList.add('red')
           removeRed.classList.remove('red')
         }
-        if (redIntial == 22) {
-          redRemove = 22
+        if (redIntial == 20) {
+          redRemove = 20
           redIntial = 29
           let addRed = document.getElementById(redIntial)
           let removeRed = document.getElementById(redRemove)
           addRed.classList.add('red')
           removeRed.classList.remove('red')
         }
-        if (redIntial == 27) {
-          redRemove = 27
-          redIntial = 1
-          let addRed = document.getElementById(redIntial)
-          let removeRed = document.getElementById(redRemove)
-          addRed.classList.add('red')
-          removeRed.classList.remove('red')
-        }
-        if (redIntial == 17) {
-          redRemove = 17
-          redIntial = 4
+        if (redIntial == 11) {
+          redRemove = 11
+          redIntial = 26
           let addRed = document.getElementById(redIntial)
           let removeRed = document.getElementById(redRemove)
           addRed.classList.add('red')
@@ -85,9 +77,25 @@ for (let i = 0; i < block.length; i++) {
           addRed.classList.add('red')
           removeRed.classList.remove('red')
         }
+        if (redIntial == 17) {
+          redRemove = 17
+          redIntial = 4
+          let addRed = document.getElementById(redIntial)
+          let removeRed = document.getElementById(redRemove)
+          addRed.classList.add('red')
+          removeRed.classList.remove('red')
+        }
         if (redIntial == 19) {
           redRemove = 19
           redIntial = 7
+          let addRed = document.getElementById(redIntial)
+          let removeRed = document.getElementById(redRemove)
+          addRed.classList.add('red')
+          removeRed.classList.remove('red')
+        }
+        if (redIntial == 27) {
+          redRemove = 27
+          redIntial = 1
           let addRed = document.getElementById(redIntial)
           let removeRed = document.getElementById(redRemove)
           addRed.classList.add('red')
@@ -113,32 +121,32 @@ for (let i = 0; i < block.length; i++) {
         let removeGreen = document.getElementById(greenRemove)
         addGreen.classList.add('green')
         removeGreen.classList.remove('green')
-        if (greenIntial == 17) {
-          greenRemove = 17
-          greenIntial = 27
+        if (greenIntial == 3) {
+          greenRemove = 3
+          greenIntial = 22
           let addGreen = document.getElementById(greenIntial)
           let removeGreen = document.getElementById(greenRemove)
           addGreen.classList.add('green')
           removeGreen.classList.remove('green')
         }
-        if (greenIntial == 13) {
-          greenRemove = 13
-          greenIntial = 18
+        if (greenIntial == 5) {
+          greenRemove = 5
+          greenIntial = 8
           let addGreen = document.getElementById(greenIntial)
           let removeGreen = document.getElementById(greenRemove)
           addGreen.classList.add('green')
           removeGreen.classList.remove('green')
         }
-        if (greenIntial == 6) {
-          greenRemove = 6
-          greenIntial = 25
+        if (greenIntial == 11) {
+          greenRemove = 11
+          greenIntial = 26
           let addGreen = document.getElementById(greenIntial)
           let removeGreen = document.getElementById(greenRemove)
           addGreen.classList.add('green')
           removeGreen.classList.remove('green')
         }
-        if (greenIntial == 22) {
-          greenRemove = 22
+        if (greenIntial == 20) {
+          greenRemove = 20
           greenIntial = 29
           let addGreen = document.getElementById(greenIntial)
           let removeGreen = document.getElementById(greenRemove)
@@ -153,17 +161,9 @@ for (let i = 0; i < block.length; i++) {
           addGreen.classList.add('green')
           removeGreen.classList.remove('green')
         }
-        if (greenIntial == 17) {
-          greenRemove = 17
-          greenIntial = 4
-          let addGreen = document.getElementById(greenIntial)
-          let removeGreen = document.getElementById(greenRemove)
-          addGreen.classList.add('green')
-          removeGreen.classList.remove('green')
-        }
         if (greenIntial == 21) {
           greenRemove = 21
-          greenIntial = 9
+          greenIntial = 4
           let addGreen = document.getElementById(greenIntial)
           let removeGreen = document.getElementById(greenRemove)
           addGreen.classList.add('green')
@@ -172,6 +172,14 @@ for (let i = 0; i < block.length; i++) {
         if (greenIntial == 19) {
           greenRemove = 19
           greenIntial = 7
+          let addGreen = document.getElementById(greenIntial)
+          let removeGreen = document.getElementById(greenRemove)
+          addGreen.classList.add('green')
+          removeGreen.classList.remove('green')
+        }
+        if (greenIntial == 17) {
+          greenRemove = 17
+          greenIntial = 4
           let addGreen = document.getElementById(greenIntial)
           let removeGreen = document.getElementById(greenRemove)
           addGreen.classList.add('green')

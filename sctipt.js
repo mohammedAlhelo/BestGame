@@ -112,6 +112,8 @@ for (let i = 0; i < block.length; i++) {
           let removeRed = document.getElementById(30)
           removeRed.classList.remove('red')
           alert('player one won!!')
+          let removeGreen = document.getElementById(greenIntial)
+          removeGreen.classList.remove('green')
         }
       }
     } else if (player == 2) {
@@ -198,6 +200,8 @@ for (let i = 0; i < block.length; i++) {
           let removeGreen = document.getElementById(30)
           removeGreen.classList.remove('green')
           alert('player two won!!')
+          let removeRed = document.getElementById(redIntial)
+          removeRed.classList.remove('red')
         }
       }
     } else return
@@ -211,6 +215,7 @@ for (let i = 0; i < block.length; i++) {
     let addGreen = document.getElementById(1)
     addGreen.classList.add('green')
     removeGreen.classList.remove('green')
+    winner.classList.remove('white')
     greenRemove = 0
     redRemove = 0
     redIntial = 1

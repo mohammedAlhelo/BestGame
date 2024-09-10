@@ -11,10 +11,5 @@ header {
 main {
   padding: auto;
   margin: auto;
-  display: grid;
-  grid-template-columns: repeat(6, 75px);
-  grid-template-rows: repeat(5, 74px);
-  border: 5px solid black;
-  width: 445px;
-  height: 370px;
+  text-align: center;
 }

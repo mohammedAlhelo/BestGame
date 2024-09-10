@@ -104,6 +104,8 @@ for (let i = 0; i < block.length; i++) {
         // winning condition
         if (redIntial == 30) {
           winner.classList.add('white')
+          let removeRed = document.getElementById(30)
+          removeRed.classList.remove('red')
           alert('player one won!!')
         }
       }
@@ -188,6 +190,8 @@ for (let i = 0; i < block.length; i++) {
         // winning condition
         if (greenIntial == 30) {
           winner.classList.add('white')
+          let removeGreen = document.getElementById(30)
+          removeGreen.classList.remove('green')
           alert('player two won!!')
         }
       }

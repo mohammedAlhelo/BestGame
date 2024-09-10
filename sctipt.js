@@ -1,7 +1,7 @@
 // variables
 let currentPlayer = document.querySelector('span')
 let playerTurnDisplay = document.querySelector('b')
-let player = 1
+
 let winner = document.querySelector('main')
 let block = document.querySelectorAll('div')
 let button1 = document.querySelectorAll('button')[0]
@@ -15,6 +15,7 @@ let addRed = document.getElementById(redIntial)
 addRed.classList.add('red')
 let addGreen = document.getElementById(greenIntial)
 addGreen.classList.add('green')
+let player = 1
 
 // game logic
 for (let i = 0; i < block.length; i++) {
@@ -200,6 +201,25 @@ for (let i = 0; i < block.length; i++) {
         }
       }
     } else return
+  }
+  button2.onclick = () => {
+    let removeRed = document.getElementById(redIntial)
+    let addRed = document.getElementById(1)
+    addRed.classList.add('red')
+    removeRed.classList.remove('red')
+    let removeGreen = document.getElementById(greenIntial)
+    let addGreen = document.getElementById(1)
+    addGreen.classList.add('green')
+    removeGreen.classList.remove('green')
+    greenRemove = 0
+    redRemove = 0
+    redIntial = 1
+    greenIntial = 1
+    console.log(redIntial)
+    console.log(greenIntial)
+    console.log(redRemove)
+    console.log(greenRemove)
+    player = 1
   }
 }
 

@@ -7,10 +7,14 @@ let block = document.querySelectorAll('div')
 let button1 = document.querySelectorAll('button')[0]
 let button2 = document.querySelectorAll('button')[1]
 let diceValue = document.querySelector('p')
-let redIntial = 0
+let redIntial = 1
 let redRemove = 0
-let greenIntial = 0
+let greenIntial = 1
 let greenRemove = 0
+let addRed = document.getElementById(redIntial)
+addRed.classList.add('red')
+let addGreen = document.getElementById(greenIntial)
+addGreen.classList.add('green')
 
 // game logic
 for (let i = 0; i < block.length; i++) {

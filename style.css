@@ -35,14 +35,22 @@ section {
   display: inline-block;
 }
 .red {
-  background-color: white;
-  border-radius: 190px;
+  background-color: #00d9ff;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  /* display: inline-block; */
+  /* align-items: flex-end; */
+  /* flex-direction:; */
   /* background: linear-gradient(to right, red); */
 }
 .green {
-  background-color: green;
+  background-color: lawngreen;
+  height: 40px;
+  width: 40px;
   /* background: linear-gradient(to right, green); */
-  border-radius: 190px;
+  border-radius: 50%;
+  /* display: inline-block; */
 }
 .white {
   background-image: url(https://images.dog.ceo/breeds/pug/n02110958_12808.jpg);

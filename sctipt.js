@@ -15,6 +15,7 @@ addRed.classList.add('red')
 let addGreen = document.getElementById(greenIntial)
 addGreen.classList.add('green')
 let player = 1
+let trailer = document.getElementById('trailer')
 
 // game logic
 for (let i = 0; i < block.length; i++) {
@@ -226,3 +227,8 @@ for (let i = 0; i < block.length; i++) {
   }
 }
 //Hover
+window.onmousemove = (e) => {
+  let x = e.clientX - trailer.offsetWidth / 2,
+    y = e.clientY - trailer.offsetHeight / 2
+  trailer.style.transform = `translate(${x}px,${y}px)`
+}

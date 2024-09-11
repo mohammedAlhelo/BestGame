@@ -1,7 +1,20 @@
 body {
-  background-color: aqua;
-  /* background-image: url(https://images.dog.ceo/breeds/pug/n02110958_12808.jpg); */
+  /* background-color: aqua; */
+  background-image: url(https://i.pinimg.com/236x/57/9d/0c/579d0ca8d217029d524d8f84072645f5.jpg?nii=t);
+  /* background-image: url(https://imgur.com/vlGwL7p); */
+  /* background-image: url(https://i.imgur.com/vlGwL7p.jpeg); */
   align-items: center;
+  background-size: 100vw 100vh;
+  background-repeat: no-repeat;
+}
+h1 {
+  color: white;
+}
+h2 {
+  color: white;
+}
+h3 {
+  color: white;
 }
 header {
   text-align: center;
@@ -53,5 +66,23 @@ section {
   /* display: inline-block; */
 }
 .white {
-  background-image: url(https://images.dog.ceo/breeds/pug/n02110958_12808.jpg);
+  background-image: url(https://i.ibb.co/k1LFmgL/Screenshot-20240911-155946-Slack.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#trailer {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background-color: white;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  z-index: 100000000;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 500ms ease;
+}
+body:hover > #trailer {
+  opacity: 1;
 }

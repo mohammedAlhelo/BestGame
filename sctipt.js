@@ -1,7 +1,6 @@
 // variables
 let currentPlayer = document.querySelector('span')
 let playerTurnDisplay = document.querySelector('b')
-
 let winner = document.querySelector('main')
 let block = document.querySelectorAll('div')
 let button1 = document.querySelectorAll('button')[0]
@@ -206,6 +205,7 @@ for (let i = 0; i < block.length; i++) {
       }
     } else return
   }
+  // restart game
   button2.onclick = () => {
     let removeRed = document.getElementById(redIntial)
     let addRed = document.getElementById(1)
@@ -221,5 +221,8 @@ for (let i = 0; i < block.length; i++) {
     redIntial = 1
     greenIntial = 1
     player = 1
+    currentPlayer.innerHTML = player
+    playerTurnDisplay.innerHTML = player
   }
 }
+//Hover

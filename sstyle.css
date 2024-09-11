@@ -1,6 +1,8 @@
 body {
-  background-color: aqua;
-  /* background-image: url(https://images.dog.ceo/breeds/pug/n02110958_12808.jpg); */
+  /* background-color: gray; */
+  background-image: url(https://th.bing.com/th/id/OIP.YyHfGxX4-dTFtu41dHx5KgHaEO?rs=1&pid=ImgDetMain);
+  background-size: 100vw 100vh;
+  background-repeat: no-repeat;
   align-items: center;
 }
 header {
@@ -12,4 +14,16 @@ main {
   padding: auto;
   margin: auto;
   text-align: center;
+  /* display: flex; */
+}
+button {
+  background-color: aqua;
+  /* display: flex; */
+  /* flex-direction: column-reverse; */
+  align-items: center;
+  width: 350px;
+  height: 50px;
+}
+section {
+  margin: 20px;
 }
